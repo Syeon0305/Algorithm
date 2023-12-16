@@ -1,5 +1,7 @@
 def main():
     l = input()
-    print(len(l))
+    output = len(l.split())
+    #output = len(list(filter(None, l.split(' '))))
+    print(output)
 
 main()
